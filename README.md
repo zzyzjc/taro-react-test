@@ -1,4 +1,5 @@
 # taro-react-test
+# Taro v3.6.11
 
     const takeCamera = () => {
       const ctx = Taro.createCameraContext()
@@ -16,5 +17,6 @@
         }
       })
     }
+
 
 在微信小程序上完全没有问题，但是在支付宝上就完全没有反应，success、fail、complete全部未执行，也没有报错
